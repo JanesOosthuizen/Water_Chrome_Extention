@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head><title>Water Restrictions</title></head>
+<body>
+Water Goal:</br>
+<input type="number" name="water_goal" id="water_goal"/></br>
+Add the Sites which will be blocked until you have reached your water goal.<br/>
+<i>You can add multiple urls by seperating them with a semicolon.</i>
+<textarea type="text" name="blocked_urls" id="blocked_urls" placeholder="www.domain.com" style="
+width: 100%;
+padding: 3px;
+box-sizing: border-box;
+font-size: 14px;
+"></textarea>
+<br/>
+You have drunk so much water: <span id="overallCounter"></span> glasses
+<div id="status"></div>
+<button id="save" style="
+background: cornflowerblue;
+border: none;
+padding: 5px 10px;
+float: right;
+margin-bottom: 10px;
+">Save</button>
+
+<script src="options.js"></script>
+</body>
+</html>
